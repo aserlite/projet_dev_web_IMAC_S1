@@ -1,0 +1,31 @@
+/* -- Imported fonts -- */
+@font-face{
+    font-family: "Lexend_Bold";
+    src: url("../fonts/lexend_bold.woff2");
+}
+
+@font-face{
+    font-family: "Lexend_Light";
+    src: url("../fonts/lexend_light.woff2");
+}
+
+@font-face{
+    font-family: "Lexend_Medium";
+    src: url("../fonts/lexend_medium.woff2");
+}
+
+@font-face{
+    font-family: "Lexend";
+    src: url("../fonts/Lexend[wght].ttf");
+}
+
+
+/* -- Colors -- */
+:root{
+    --UGEBlue:#2F2A85;
+    --UGEDarkBlue:#1B184E;
+    --UGEWhite:#ECECF9;
+    --UGEFocus:#4D45DB;
+    --UGELightGrey:#B3B3B3;
+    --font: "Lexend", sans-serif;
+}

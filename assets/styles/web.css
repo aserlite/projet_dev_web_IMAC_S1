@@ -1,0 +1,54 @@
+/* -- Hero style -- */
+h2{
+    font-size: 40px;
+    color: var(--UGEDarkBlue);
+    text-transform: uppercase;
+}
+
+
+/* -- Languages component style -- */
+.languages div{
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+    gap:16px;
+}
+
+.languages div:nth-child(2n) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.languages p{
+    font-size: 18px;
+    color: var(--UGEDarkBlue);
+}
+.languages img{
+    width: 116px;
+}
+
+/* -- Responsive -- */
+
+@media only screen and (min-width: 768px) {
+    main{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .languages{
+        max-width: 800px;
+    }
+
+    .languages img{
+        width: 175px;
+    }
+
+    .languages p{
+        font-size: 24px;
+    }
+
+    .languages div{
+        margin-top: 64px;
+    }
+}

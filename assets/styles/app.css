@@ -1,0 +1,106 @@
+/* -- Global style -- */
+*{
+    font-family: var(--font);
+    font-weight: 400;
+    text-underline-offset: 2.5px;
+    margin: 0;
+}
+
+h1{
+    display: none;
+}
+
+em{
+    text-decoration: underline;
+    font-style: normal;
+}
+
+span{
+    text-decoration: underline dotted;
+}
+
+.focus{
+    color: var(--UGEFocus);
+    text-decoration: none;
+}
+
+/* -- Header style -- */
+header{
+    background-color: var(--UGEBlue);
+}
+
+header a{
+    color: var(--UGEWhite);
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1.05em;
+    transition: 100ms;
+}
+
+header a:hover{
+    color: var(--UGELightGrey);
+    text-decoration: none;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+
+/* -- Main component style -- */
+main{
+    padding: 32px 16px;
+}
+
+
+/* -- Footer style -- */
+footer {
+    padding: 16px;
+    text-align: left;
+    background: var(--UGEBlue);
+    color: var(--UGEWhite);
+    position: absolute;
+    max-width: 100vw;
+}
+
+#footer_infos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    gap: 16px;
+    font-weight: 700;
+}
+
+#disclaimer {
+    width: 50%;
+}
+
+#links {
+    text-align: left;
+}
+
+#links a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#footer_year {
+    text-align: center;
+    margin: 32px 0 12px 0;
+}
+
+
+/* -- Responsive -- */
+@media only screen and (min-width: 768px) {
+    main{
+        padding: 64px  256px;
+    }
+
+    footer{
+        padding: 0 256px;
+        width: calc(100vw - 256px*2);
+    }
+}
