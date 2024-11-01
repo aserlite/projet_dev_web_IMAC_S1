@@ -24,6 +24,7 @@ h2{
 .fields_images img{
     border-radius: 5px;
     width: 100%;
+    object-fit: scale-down;
 }
 
 .fields_images h4{
@@ -34,6 +35,9 @@ h2{
 }
 
 
+.logo_esiee{
+    border: #153E5D solid 5px;
+}
 /* -- CTA component style -- */
 
 .cta{
@@ -84,14 +88,15 @@ h2{
 
     .fields_images{
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     .fields_images img{
         border-radius: 5px;
-        width: 100%;
+        width: 384px;
         max-height: 218px;
     }
-
     .cta{
         margin-top:64px;
         gap: 64px;

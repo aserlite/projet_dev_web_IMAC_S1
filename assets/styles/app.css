@@ -24,6 +24,10 @@ span{
     text-decoration: none;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* -- Header style -- */
 header{
     background-color: var(--UGEBlue);
@@ -102,5 +106,12 @@ footer {
     footer{
         padding: 0 256px;
         width: calc(100vw - 256px*2);
+    }
+    #disclaimer {
+        width: 35%;
+    }
+
+    #footer_infos {
+        justify-content: start;
     }
 }
