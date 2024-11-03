@@ -34,6 +34,9 @@ h2{
     text-align: center;
 }
 
+#image_champs{
+    object-fit: cover;
+}
 
 .logo_esiee{
     border: #153E5D solid 5px;
@@ -95,8 +98,9 @@ h2{
     .fields_images img{
         border-radius: 5px;
         width: 384px;
-        max-height: 218px;
+        height: 218px;
     }
+
     .cta{
         margin-top:64px;
         gap: 64px;
